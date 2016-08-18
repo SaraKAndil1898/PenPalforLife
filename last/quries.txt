@@ -1,0 +1,12 @@
+SELECT count(`topic_cat`) FROM `topics` where `topic_cat` =1
+
+
+SELECT count(`topic_cat`) FROM `topics` where `topic_cat` =2
+
+SELECT count(`topic_cat`) FROM `topics` where `topic_cat` =3
+
+SELECT count(`topic_cat`) FROM `topics` where `topic_cat` =4
+
+
+//show more query
+SELECT post_content FROM `posts` WHERE post_id =2
